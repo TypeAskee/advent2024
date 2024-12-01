@@ -1,23 +1,21 @@
-# Template for solving Advent of Code puzzles in Rust with RustRover
+# Advent of Code 2024 - Rust Version
 
-Read the [blog post](https://blog.jetbrains.com/rust/2024/11/29/advent-of-code-in-rust-for-the-rest-of-us/) that explains the structure and rationale behind this template.
+I'm new to Rust, so I'm trying to work on building these solutions in Rust to learn the language. 
+Obviously, I'm not going to have the best solutions because of my newness, but I'm attempting to 
+see how far I can go in a new language!
 
-## Usage
+## My History
 
-1. Create a new project from the template repository:
-   - Using GitHub’s templating feature: Simply click the Use this template [button](https://github.com/new?template_name=advent-of-code-rust-template&template_owner=bravit) on the repository page, create a new repository, and then open it in [RustRover](https://www.jetbrains.com/rust/) by selecting *File | New | Project From Version Control…*.
-   -  Adding the template to RustRover: You can integrate the template directly into RustRover and use the regular New Project wizard.
+I'm a Mathematician turned Software Engineer / Research Engineer with a lot of experience in Python and C++
+more than anything else. I'm trying to pick up Rust as well, due to being interested in the "new hotness" 
+that is Rust. I'm not familiar with the community or what crates exist or anything else, so every
+day should be a continued learning experience on not only the language syntax/features but also the 
+ecosystem in general.
 
-2. Whenever you're ready to start solving a new day's puzzle:
-   - Open the `bin` folder, copy and paste the `NN.rs` file into it, and give it the corresponding name (`01.rs`, `02.rs`, etc.).
-   - In the `input` folder, create and fill the input data file (`01.txt`, `02.txt`, etc.).
-   - Fill in the `DAY` constant in the freshly created file.
-   - Run the current day's solution to check if it compiles (you can use the gutter icon next to the `main` function).
-   - Fill in `<TEST-INPUT>`.
-   - Write the expected answer for the test data in the `assert_eq` statement in *Part 1*.
-   - Now you're ready to write your solution in the `part1` function (inside `main`).
-   - Use `Shift+F10` (Win/Linux) or `Ctrl-R` (macOS) to re-run the same program.
+## Template
 
-3. When you're done with the first part of the puzzle, use folding to hide *Part 1*.
+I'm using the RustRover blog Template for Advent of Code this year, mostly because I'm also doing this
+all in RustRover. I'm mostly familiar with PyCharm, though I used CLion quite a bit last year... and decided
+that I wanted the assistance of an IDE for learning this time around.
 
-4. Uncomment *Part 2*, fill in the test data assertion, and start solving it.
+The link to the template is probably above somewhere, but also is [here](https://github.com/bravit/advent-of-code-rust-template).
